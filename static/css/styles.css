@@ -1,0 +1,25 @@
+.container-1
+{
+    border: 1px solid black;
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.flex-box-container-1
+{
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flex-box-container-1 div
+{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
